@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Table</title>
+  </head>
+  <body>
+    01 Kamal Mia Dhaka <br />
+    02 Md Jamal Khan Bogura <br />
+    03 Mr. Tomal Chowdhury Joypurhat
+    <br /><br />
+    <hr />
+    <table
+      width="460"
+      border="1"
+      height="auto"
+      cellspacing="0"
+      cellpadding="10"
+    >
+      <tr>
+        <td>01</td>
+        <td>Kamal Mia</td>
+        <td>Dhaka</td>
+        <td>Male</td>
+      </tr>
+      <tr>
+        <td>02</td>
+        <td>Md Jamal Khan</td>
+        <td>Bogura</td>
+        <td>Male</td>
+      </tr>
+      <tr>
+        <td>03</td>
+        <td>Mr. Tomal Chowdhury</td>
+        <td>Joypurhat</td>
+        <td>Male</td>
+      </tr>
+    </table>
+    <hr />
+    <br /><br />
+    <!-- table>tr*5>td*7 -->
+    <table border="1" width="600" height="300" align="center" cellspacing="0">
+      <!-- row no 1 -->
+      <tr>
+        <td colspan="2" bgcolor="red"></td>
+        <!-- <td></td> -->
+        <td bgcolor="green"></td>
+        <td rowspan="5" bgcolor="yellow"></td>
+        <td bgcolor="green"></td>
+        <td colspan="2" bgcolor="red"></td>
+        <!-- <td></td> -->
+      </tr>
+      <!-- row no 2 -->
+      <tr>
+        <td colspan="3" bgcolor="blue"></td>
+        <!-- <td></td>
+        <td></td> -->
+        <!-- <td></td> -->
+        <td colspan="3" bgcolor="blue"></td>
+        <!-- <td></td>
+        <td></td> -->
+      </tr>
+      <!-- row no 3 -->
+      <tr>
+        <td rowspan="2" bgcolor="black"></td>
+        <td bgcolor="hotpink"></td>
+        <td bgcolor="cornflowerblue"></td>
+        <!-- <td></td> -->
+        <td bgcolor="teal"></td>
+        <td bgcolor="lime"></td>
+        <td rowspan="2" bgcolor="black"></td>
+      </tr>
+      <!-- row no 4 -->
+      <tr>
+        <!-- <td></td> -->
+        <td colspan="2" rowspan="2" bgcolor="limegreen"></td>
+        <!-- <td></td> -->
+        <!-- <td></td> -->
+        <td colspan="2" bgcolor="orange"></td>
+        <!-- <td></td> -->
+        <!-- <td></td> -->
+      </tr>
+      <!-- row no 5 -->
+      <tr>
+        <td bgcolor="gray"></td>
+        <!-- <td></td>
+        <td></td> -->
+        <!-- <td></td> -->
+        <td bgcolor="pink"></td>
+        <td bgcolor="skyblue"></td>
+        <td bgcolor="magenta"></td>
+      </tr>
+    </table>
+  </body>
+</html>

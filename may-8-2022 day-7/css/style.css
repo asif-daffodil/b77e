@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.abul {
+  width: 500px;
+  color: teal;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: Calibri;
+  font-style: italic;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  text-decoration: underline;
+  text-align: center;
+  line-height: 36px;
+  text-shadow: 2px 2px 3px orangered;
+  /* border: 2px solid black; */
+  /* border-width: 2px;
+  border-style: solid;
+  border-color: black; */
+  /* border-top-width: 10px;
+  border-top-style: dotted;
+  border-top-color: black; */
+  /* border-top: 10px dashed black; */
+  /* border-right-width: 10px;
+  border-right-style: dotted;
+  border-right-color: black; */
+  /* border-right: 10px dashed black; */
+  /* border-bottom-width: 10px;
+  border-bottom-style: dotted;
+  border-bottom-color: black; */
+  /* border-bottom: 10px double black; */
+  /* border-left-width: 10px;
+  border-left-style: dotted;
+  border-left-color: black; */
+  /* border-left: 10px solid blue; */
+  border: 2px solid black;
+  /* padding: 20px; */
+  /* padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px; */
+  /* padding: 20px 30px 20px 30px; */
+  padding: 20px 30px;
+  /* padding: 20px 30px 10px; */
+  /* margin: 20px; */
+  /* margin: 20px 30px 40px 50px; */
+  /* margin: 20px 30px; */
+  /* margin: 20px 30px 10px; */
+  /* margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-right: 40px; */
+  margin: 20px auto;
+  /* margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: auto; */
+  box-shadow: -5px 5px 5px blue, 5px -5px 5px teal, 10px -10px 10px red,
+    -10px 10px 10px green, 0px 0px 60px black, 0px 0px 20px black inset;
+  border-radius: 20px;
+}
+
+.faka {
+  width: 500px;
+  height: 200px;
+  border: 2px solid black;
+}
+
+.pera {
+  display: inline;
+  width: 300px;
+  margin-left: auto;
+}
+
+.under {
+  display: inline-block;
+  width: max-content;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 6px;
+  margin: 10px;
+}

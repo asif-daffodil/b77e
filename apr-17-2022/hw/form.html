@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Work on Form</title>
+</head>
+<body>
+    <form action="">
+        <label for="fn">First Name :</label>
+        <input type="text" placeholder="First name" id="fn"><br><br>
+
+        <label for="ln">Last Name :</label>
+        <input type="text" placeholder="Last name" id="ln"><br><br>
+
+        <label for="dob">Date of Birth :</label>
+        <input type="date" id="dob" name="birthday"><br><br>
+
+        <label for="dobmax">Enter birhtday before 1994 </label>
+        <input type="date" id="dobmax" name="datemax" max="1994-12-31" /><br><br>
+
+        <label for="dobmin">Enter birthday after 1994</label>
+        <input type="date" id="dobmin" name="datemin" min="1994-12-31"><br><br>
+
+        <label for="dobtime">Birthday Time :</label>
+        <input type="datetime-local" id="dobtime" name="birthdaytime" />
+        <input type="submit" value="Submit">
+        <br><br>
+        <label for="mn">Mobile Number :</label>
+        <input type="number" placeholder="Phone Number"><br><br>
+
+        <label for="qnt">Quantity between 1 and 10</label>
+        <input type="number" id="qnt" name="quantity" min="1" max="10"><br><br>
+
+        <br>
+        <label for="qnt"> 10 Step quentity </label>
+        <input type="number" id="qnt" name="quentity" min="10" max="100" step="10">
+        <br><br>
+        <label for="email">Your Email :</label>
+        <input type="email" name="email" placeholder="Type Your email" id="email"><br><br>
+
+        <label for="pwd">Your Password :</label>
+        <input type="password" id="pwd" placeholder="Password"/><br><br>
+       
+        <input type="submit" value="Login" />
+        <input type="reset" value="Erese">
+        <input type="button" onclick="alert('This is a Button!')" value="Click Me!">
+
+
+        <p>Choose your favorite Web Language : </p>
+
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html"> HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="js" name="fav_language" value="JavaScript">
+        <label for="js">JavaScript</label><br>
+        <input type="radio" id="php" name="fav_language" value="PHP">
+        <label for="php">PHP</label><br><br>
+
+        <label for="myfile">Upload your File :</label>
+        <input type="file" id="myfile" name="myfile"> 
+        <input type="Submit" value="Submit">
+
+        <p>Whice type of your vehicle :</p>
+        <input type="checkbox" id="vcl_1" name="vehicle" value="bike">
+        <label for="vcl_1"> I have a Bike</label><br>
+        <input type="checkbox" id="vcl_2" name="vehicle" value="car" >
+        <label for="vcl_2">I hame a Car</label><br>
+        <input type="checkbox" id="vcl_3" name="vehicle" value="Bicycle">
+        <label for="vcl_3">I have a Bicycle</label><br><br>
+        
+        <label for="fav">Choose your favorite Color</label>
+        <input type="color" id="fav" name="favcolor" value="#00ff00"/><br>
+
+
+
+
+    </form>
+
+
+
+
+</body>
+</html>
