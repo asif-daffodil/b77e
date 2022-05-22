@@ -1,0 +1,253 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    background: #3E5C9A;
+    overflow:hidden;
+    padding: 10px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.header_left{
+    width: 30%;
+    float:left;
+}
+.header_left img {
+    width: 160px;
+    margin-top: 20px;
+}
+.header_right{
+    width:70%;
+    float:left;
+    color:#fff;
+}
+.header_right .pwd a {
+    text-decoration: none;
+    color:#9cb4d8;
+    font-size:12px;
+}
+.header_right .pwd a:hover {
+    text-decoration: underline;
+}
+.header_right .btn input {
+    padding: 3px 8px;
+    margin-top:20px;
+    background-color:#4267b2;
+    border: 1px solid #29487d;
+    color:#fff;
+}
+.header_right form{
+    float:right;
+}
+.header_right label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.header_right input {
+    display: block;
+}
+.header_right .email, .pwd, .btn {
+    float:left;
+    margin-right:15px;
+}
+input[type="text"], [type="password"] {
+    border: 1px solid #000;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 2px 5px;
+}
+.btn{
+    margin-right:0px;
+}
+
+
+
+
+/* Middle_Part */
+
+.middle_bg {
+    background:linear-gradient(#fff, #D4D9E9);
+    overflow: hidden;
+    display:block;
+    padding: 20px 0px;
+}
+.mid_left {
+    width:60%;
+    float:left;
+}
+.mid_left h3 {
+    color:#0e385f;
+    font-size: 20px;
+    width:90%;
+}
+.mid_left img {
+    width:90%;
+}
+.mid_right {
+    width:40%;
+    float:left;
+}
+.mid_right h2 {
+    font-size: 33px;
+    color:#333;
+    margin:0px;
+}
+.mid_right h4 {
+    font-size:19px;
+    color:#1d2129;
+    margin:5px 0px 10px 0px;
+}
+.mid_right input[type="text"],
+.mid_right input[type="password"] {
+    width:100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #bdc7d8;
+    padding: 8px 10px;
+    font-size: 18px;
+    margin:5px 0px;
+}
+.fst_sur_mane {
+    overflow:hidden;
+}
+.fst_name {
+    width:48%;
+    float:left;
+    margin-right: 4%;
+}
+.sur_name {
+    width:48%;
+    float:left;
+}
+.birthday {
+    overflow:hidden;
+}
+.birthday h4 {
+    margin:5px 0px 5px 0px;
+}
+.birth_date {
+    overflow:hidden;
+    float:left;
+    margin-right: 10px;
+    width:200px;
+}
+.birth_date select {
+    border:1px solid #ccc;
+    padding:5px;
+    float:left;
+}
+.opt_link {
+    width:190px;
+    float:left;
+}
+.opt_link a {
+    font-size:13px;
+    display: block;
+    line-height: 1.1;
+    text-decoration: none;
+    color:#365899;
+}
+.opt_link a:hover {
+    text-decoration: underline;
+}
+.radio_btn {
+    margin: 10px 0px;
+}
+.radio_btn label {
+    font-size: 20px;
+    color:#1d2129;
+}
+.btn_text {
+    margin-bottom: 20px;
+}
+.btn_text p {
+    font-size: 13px;
+    color:#777;
+    width:80%;
+}
+.btn_text p a {
+    text-decoration: none;
+    color:#365899;
+}
+.btn_text p a:hover {
+    text-decoration: underline;
+}
+.button {
+    margin-bottom: 30px;
+}
+.button input {
+    background: linear-gradient(#67ae55, #578843);
+    min-width: 194px;
+    padding: 7px 14px;
+    color:#fff;
+    font-size:18px;
+    border-radius:4px;
+    border-color:#3b6e22 #3b6e22 #2c5115;
+    border-width:1px;
+    box-shadow: inset 0px 1px 1px #2c5115;
+    border-style:solid;
+    text-align: center;
+}
+.button input:hover {
+    background: linear-gradient(#578843, #67ae55);
+    cursor:pointer;
+}
+.celebrity_opt {
+    font-size: 16px;
+    color:#666;
+}
+.celebrity_opt a  {
+    text-decoration: none;
+    color:#365899;
+}
+.celebrity_opt a:hover  {
+    text-decoration: underline;
+}
+
+
+/* Footer_Part */
+.footer {
+    padding: 30px 0px;
+}
+.footer hr {
+    border:0px;
+    border: 1px solid #d4d4d4;
+}
+.footer .footer_top ul li {
+    margin-right: 5px;
+}
+.footer .footer_top ul li:last-child a {
+    padding: 0px 6px;
+    border:1px solid #999;
+    font-size: 12px;
+}
+.footer ul {
+    margin:0px;
+    padding:0px;
+}
+.footer ul li {
+    display: inline;
+}
+.footer ul li a {
+    text-decoration:none;
+    color:#365899;
+    font-size:13px;
+}
+.footer ul li.active a {
+    color:#737373;
+}
+.footer .footer_mid ul li {
+    margin-right: 10px;
+}
+.footer_buttom {
+    margin-top:20px;
+}
+.footer_buttom span {
+    color:#737373;
+    font-size: 13px;
+}

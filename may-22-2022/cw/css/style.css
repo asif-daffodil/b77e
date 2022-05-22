@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dhaka {
+  width: 300px;
+  height: 200px;
+  margin: 20px auto;
+  background: rgb(0, 126, 0);
+  display: flex;
+  border: 1px solid #000;
+  position: relative;
+  text-align: center;
+}
+
+.dhaka:hover {
+  background: #fff;
+}
+
+.dhaka::before {
+  content: "Bangladesh";
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  width: 100%;
+  line-height: 20px;
+}
+
+.dhaka:hover::before {
+  content: "Japan";
+}
+
+.dhanmondi {
+  width: 150px;
+  height: 150px;
+  background: rgba(255, 0, 0, 1);
+  border-radius: 50%;
+  margin: auto;
+  /* opacity: 0.5; */
+}
+
+.bd {
+  width: 300px;
+  height: 200px;
+  background-color: #00684d;
+  margin: auto;
+  display: flex;
+}
+
+.dhk {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background-color: #e72d41;
+  background-image: url("../images/pm.png");
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  /* background-image: url("../images/messi.png");
+  background-repeat: no-repeat;
+  background-size: 300px auto;
+  background-position: bottom left;
+  background-color: gray; */
+  background: url("../images/messi.png") no-repeat bottom left / 300px auto,
+    radial-gradient(white, darkgray);
+  display: flex;
+}
+
+.pain {
+  width: 300px;
+  height: 200px;
+  margin: auto;
+  background: linear-gradient(to top right, green, #51a351, green);
+  display: flex;
+}
+
+.rain {
+  width: 220px;
+  height: 150px;
+  margin: auto;
+  background: radial-gradient(orange, orangered);
+  clip-path: polygon(0% 50%, 50% 0%, 100% 50%, 50% 100%);
+  display: flex;
+}
+
+.chain {
+  width: 90px;
+  height: 90px;
+  background: radial-gradient(blue, darkblue);
+  border-radius: 50%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.kane {
+  width: 180px;
+  height: 180px;
+  border: 10px solid #fff;
+  border-radius: 50%;
+  margin-top: 32px;
+  margin-left: -80px;
+}
+
+.devider {
+  width: calc(100% - 10vw);
+  margin: 0 auto 20px;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(255, 255, 255, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../images/natural.jpg") fixed center / cover;
+  /* background-attachment: fixed; */
+  text-align: center;
+  line-height: 100px;
+  font-size: calc(22px + 1vw);
+  text-shadow: 1px 1px 1px #ccc;
+  font-family: Arial;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.devider::before {
+  content: attr(myMsg);
+}
+
+.devider:hover::before {
+  content: "Joy Bangla";
+}
+
+.bogura {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.alom {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  background: url("../images/hero.jpg");
+  position: relative;
+}
+
+.alom::before {
+  content: "";
+  width: 150px;
+  height: 150px;
+  background: url("../images/dighi.jpg") center / cover;
+  position: absolute;
+  top: -75px;
+  left: -75px;
+  transition: 1s;
+}
+
+.alom::after {
+  content: "";
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  bottom: -75px;
+  right: -75px;
+  background: url("../images/pori.jpg") center / cover;
+  transition: 1s;
+}
+
+.alom:hover::before {
+  top: 225px;
+  left: 225px;
+}
+.alom:hover::after {
+  bottom: 225px;
+  right: 225px;
+}
